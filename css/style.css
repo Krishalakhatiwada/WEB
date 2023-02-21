@@ -1,0 +1,30 @@
+p.redpara,h1{
+    text-align: center;
+}
+p{
+    color:red; 
+   
+
+}
+h1{
+    color:blue;
+    opacity: 1;
+}
+.redpara{
+    color: rgb(17, 138, 23);
+    
+}
+.long-para{
+    background-color: thistle;
+    opacity: 0.7;
+}
+.long-para2{
+    opacity: 0.7;
+    
+}
+body{
+    background-color: rgb(0, 0, 0);
+    background-image: url("photography.jpg");
+    background-repeat:no-repeat;
+    background-size: cover;
+}

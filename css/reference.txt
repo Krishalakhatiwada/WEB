@@ -1,0 +1,21 @@
+CSS SYNTAX
+selector { 
+    property1: value;
+    property2: value;
+} 
+
+- html tag
+h1
+- class name
+.selctor_example
+- class id
+#selctor_id_example
+
+
+
+selector using HTML tag
+<h1>Hello World</h1>
+
+<p class="selctor_example">The selector points to the HTML element you want to style.</p>
+
+<p id="selctor_id_example">The selector points to the HTML element you want to style.</p>

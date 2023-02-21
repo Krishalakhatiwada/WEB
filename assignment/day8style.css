@@ -1,0 +1,236 @@
+* {
+  margin: 0;
+  padding: 0;
+  border: none;
+  outline: none;
+}
+body {
+  font-family: system-ui, -apple-system, BlinkMacSystemFont, "Segoe UI", Roboto,
+    Oxygen, Ubuntu, Cantarell, "Open Sans", "Helvetica Neue", sans-serif;
+  background-color: #f5f5f5;
+}
+nav,
+.title {
+  background: linear-gradient(to right, #000, #271a00);
+  display: flex;
+  justify-content: space-around;
+  align-items: center;
+  border-bottom: 1px solid #2d271c;
+  padding: 15px 0;
+}
+a {
+  color: #fff;
+  text-decoration: none;
+}
+ul {
+  list-style-type: none;
+  justify-content: space-evenly;
+  display: flex;
+  align-items: center;
+}
+.nav:not(:last-child) {
+  margin-right: 30px;
+}
+.nav:last-child {
+  background-color: #ffac12;
+  padding: 14px 50px;
+  font-weight: bold;
+}
+.nav:last-child a {
+  color: #000;
+}
+.left,
+.right {
+  color: #fff;
+}
+.logo a {
+  display: block;
+  width: 115px;
+  height: 32px;
+}
+.logo a img,
+.mero-photo,
+.card-img img {
+  height: 100%;
+  width: 100%;
+}
+.left {
+  margin-left: -145px;
+}
+.right {
+  margin-right: -145px;
+}
+.left p,
+.right p {
+  opacity: 0.6;
+}
+.wrapper {
+  display: flex;
+  margin-top: 40px;
+  margin-left: 140px;
+}
+.pic-kitchen {
+  margin-right: 20px;
+}
+table.contact {
+  border-radius: 10px;
+  height: 60px;
+}
+.img-wrapper {
+  height: 35px;
+  width: 35px;
+  border-spacing: 0 10px;
+}
+.mero-photo {
+  border-radius: 50%;
+}
+#mero-profile {
+  color: #ffac12;
+}
+form {
+  display: flex;
+  flex-direction: column;
+  gap: 10px;
+}
+input,
+textarea {
+  height: 60px;
+  width: 100%;
+  border-radius: 8px;
+  padding-left: 10px;
+  border: 1px solid rgba(225, 225, 225, 0.8);
+}
+input[type="submit"] {
+  background-color: #000;
+  color: #fff;
+  border-radius: 0;
+  width: 100%;
+  margin-top: 15px;
+}
+.contact-f {
+  background-color: #fff;
+  padding: 20px 20px 0px 20px;
+  width: 25%;
+}
+table.contact {
+  background-color: #f5f5f5;
+  padding: 5px 10px;
+  margin-bottom: 10px;
+  width: 100%;
+}
+.small-pics,
+.icons,
+.descrip-para,
+.features,
+.card-wrapper {
+  margin: 15px 0 0 140px;
+}
+
+.small-pics img {
+  width: 7.75%;
+  margin-right: 10px;
+}
+.icons,
+.descrip-para,
+.features,
+.card {
+  background-color: #fff;
+  width: 56%;
+}
+.section-title {
+  padding: 30px;
+  border-bottom: 1px solid #e4e4e4;
+}
+.icon {
+  display: flex;
+  justify-content: space-around;
+}
+
+.icon div {
+  padding: 15px 50px;
+  display: flex;
+  align-items: center;
+  gap: 10px;
+}
+.icon div:not(:last-child) {
+  border-right: 1px solid #e4e4e4;
+}
+.desc p,
+.lists {
+  padding-bottom: 15px;
+  opacity: 0.6;
+  padding-left: 30px;
+}
+.desc {
+  padding-top: 22px;
+}
+.lists {
+  padding-bottom: 15px;
+  opacity: 0.6;
+  display: flex;
+  justify-content: space-between;
+  padding-top: 21px;
+  padding-right: 15px;
+}
+.lists ul {
+  list-style-type: "✅";
+  display: inline-block;
+  list-style-position: inside;
+}
+.line {
+  background: linear-gradient(90deg, #ffac12 0%, #000000 94.96%);
+  width: 9%;
+  height: 5px;
+  margin: 100px 0 0 140px;
+  border-width: 8px;
+  border-radius: 2px;
+}
+.Similar-Listings {
+  margin-left: 140px;
+  margin-top: 17px;
+  margin-bottom: 60px;
+}
+.card {
+  width: 310px;
+}
+.card-wrapper {
+  display: flex;
+  gap: 32px;
+}
+.card {
+  box-shadow: 0px 32px 34px rgba(0, 0, 0, 0.133714);
+}
+.appliances div {
+  padding-left: 30px;
+}
+footer {
+  background: linear-gradient(to right, #000, #271a00);
+  padding: 0 140px;
+}
+.top {
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  padding: 30px;
+  border-bottom: 1px solid rgba(225, 225, 225, 0.15);
+}
+
+.bottom {
+  padding: 30px;
+  display: flex;
+  justify-content: space-between;
+  color: #fff;
+  padding-bottom: 170px;
+}
+.fa-brands {
+  color: #fff;
+}
+.sm-icon {
+  display: flex;
+  justify-content: space-evenly;
+}
+
+.right-footer table th,
+.right-footer table td {
+  padding-left: 50px;
+}
