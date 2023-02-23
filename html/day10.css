@@ -1,0 +1,70 @@
+.main-container {
+  /* border-style: solid; */
+  /* border-color: black; */
+  padding: 7px;
+  background-color: rgb(196, 127, 104);
+  display: flex;
+  flex-direction: row;
+  justify-content: space-between;
+}
+.cont-a {
+  /* border-style: solid; */
+  /* border-color: rgb(172, 52, 52); */
+  /* padding: 11px;
+  margin: 11px; */
+  background-color: aqua;
+}
+.cont-b {
+  /* border-style: solid; */
+  /* border-color: rgb(62, 53, 145); */
+  /* margin:11px;
+  padding: 11px;
+  border-width: 1px;
+  background-color: rgb(35, 195, 94); */
+  background-color: rgb(35, 195, 94);
+}
+.cont-c {
+  /* border-style: solid; */
+  /* border-color: rgb(62, 53, 145); */
+  /* margin:11px;
+  padding: 11px;
+  border-width: 1px;
+  background-color: rgb(94, 35, 195); */
+  background-color: rgb(94, 35, 195);
+}
+.cont-d {
+  /* border-style: solid; */
+  /* border-color: rgb(62, 53, 145); */
+  /* margin:11px;
+  padding: 11px;
+  border-width: 1px;
+  background-color: rgb(197, 186, 164); */
+  background-color: rgb(197, 186, 164);
+}
+.cont-e {
+  /* border-style: solid; */
+  /* border-color: rgb(62, 53, 145); */
+  /* margin:11px;
+  padding: 11px;
+  border-width: 1px;
+  background-color: rgb(209, 219, 213); */
+  background-color: rgb(209, 219, 213);
+}
+.cont-f {
+  /* border-style: solid; */
+  /* border-color: rgb(62, 53, 145); */
+  /* margin:11px;
+  padding: 11px;
+  border-width: 1px; */
+  background-color: rgb(171, 33, 18);
+}
+.logo {
+  background-color: peachpuff;
+}
+.nav-link {
+  display: flex;
+  justify-content: space-between;
+}
+.nav-link div {
+  margin: 10px;
+}
